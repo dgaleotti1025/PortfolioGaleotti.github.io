@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progetto CNA | Portfolio FSL</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@400;500&display=swap"
+        rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+    <header id="navbar" class="scrolled">
+        <div class="nav-container">
+            <a href="index.html" class="logo">DG<span>.</span></a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Torna alla Home</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="inner-page section-padding">
+        <div class="container" style="max-width: 800px;">
+            <a href="quarta.html" class="back-btn"><i data-lucide="arrow-left"></i> Torna ai Progetti di Quarta</a>
+
+            <div class="section-title" style="text-align: left; margin-bottom: 2rem;">
+                <h2>Progetto CNA</h2>
+                <div class="underline" style="margin: 0; margin-top: 10px;"></div>
+            </div>
+
+            <div class="glass-card" style="padding: 2.5rem; line-height: 1.8; font-size: 1.1rem;">
+                <div class="slider-container" data-interval="2000">
+                    <img src="cna1.jpeg" class="slide" alt="CNA 1">
+                    <img src="cna2.jpeg" class="slide" alt="CNA 2">
+                    <img src="cna3.jpeg" class="slide" alt="CNA 3">
+                    <img src="cna4.jpeg" class="slide" alt="CNA 4">
+                </div>
+                <p>Il 30 settembre 2025, le classi quarte hanno partecipato a un incontro presso il Tecnopolo di Reggio
+                    Emilia dal titolo <strong>"Giovani e Imprese: fra cambiamenti e nuove opportunità"</strong>,
+                    organizzato dalla CNA. L'evento ci ha fornito un quadro aggiornato sul mercato del lavoro attuale e
+                    futuro, aiutandoci a orientarci in modo consapevole.</p>
+                <br>
+                <p>Durante la prima parte, abbiamo analizzato il contesto macroeconomico: le professioni a rischio
+                    automazione a confronto con le nuove figure emergenti legate a sostenibilità, cybersecurity e
+                    intelligenza artificiale. È emerso chiaramente come le <strong>competenze STEM</strong> siano tra le
+                    più richieste, ma spesso carenti sul mercato.</p>
+                <br>
+                <p>Successivamente, ci siamo concentrati sugli strumenti per l'orientamento personale. Attraverso il
+                    <em>modello di Holland</em> abbiamo esplorato i diversi ambienti lavorativi per riflettere sulle
+                    nostre attitudini. È stata sottolineata l'importanza sia delle <em>hard skills</em> (competenze
+                    tecniche), sia delle sempre più determinanti <em>soft skills</em> (competenze trasversali come
+                    comunicazione, leadership e gestione dello stress). Infine, ci sono stati illustrati i percorsi
+                    post-diploma, dalle lauree agli ITS Academy.
+                </p>
+                <br>
+                <p>Pur essendo stato un incontro formale e informativo, si è rivelato un'esperienza estremamente utile:
+                    ci ha messo a disposizione dati reali e concreti, fondamentali per aiutarci ad affrontare le nostre
+                    scelte formative e professionali future con molta più chiarezza.</p>
+            </div>
+        </div>
+    </section>
+
+    <div style="display: flex; justify-content: flex-end; max-width: 800px; margin: 0 auto; padding: 0 5% 3rem;">
+        <a href="quinta.html"
+            style="display: inline-flex; align-items: center; gap: 10px; background: var(--primary-color); color: #000; padding: 14px 28px; border-radius: 30px; font-family: var(--font-heading); font-weight: 600; font-size: 1rem; transition: all 0.3s ease; box-shadow: 0 4px 15px rgba(204,255,0,0.3);"
+            onmouseover="this.style.background='#b3e600';this.style.transform='translateY(-2px)'"
+            onmouseout="this.style.background='var(--primary-color)';this.style.transform='translateY(0)'">
+            Visualizza i Progetti di Quinta <i data-lucide="arrow-right"></i>
+        </a>
+    </div>
+
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2026 Daniele Galeotti. Tutti i diritti riservati.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

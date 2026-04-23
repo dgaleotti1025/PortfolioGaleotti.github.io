@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progetto Polarity | Portfolio FSL</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@400;500&display=swap"
+        rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+    <header id="navbar" class="scrolled">
+        <div class="nav-container">
+            <a href="index.html" class="logo">DG<span>.</span></a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Torna alla Home</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="inner-page section-padding">
+        <div class="container" style="max-width: 800px;">
+            <a href="quarta.html" class="back-btn"><i data-lucide="arrow-left"></i> Torna ai Progetti di Quarta</a>
+
+            <div class="section-title" style="text-align: left; margin-bottom: 2rem;">
+                <h2>Progetto Polarity</h2>
+                <div class="underline" style="margin: 0; margin-top: 10px;"></div>
+            </div>
+
+            <div class="glass-card" style="padding: 2.5rem; line-height: 1.8; font-size: 1.1rem;">
+                <img src="polarity.png" alt="Progetto Polarity"
+                    style="width: 100%; max-height: 400px; object-fit: cover; border-radius: 12px; margin-bottom: 1.5rem;">
+                <p>Il 14 gennaio 2026, le classi quarte hanno partecipato a un interessante incontro di orientamento con
+                    i rappresentanti di <strong>Polarity</strong>, un'azienda specializzata nello sviluppo software. Il
+                    tema centrale è stato l'affascinante mondo delle moderne applicazioni web.</p>
+                <br>
+                <p>Oggi un'app web non è più una semplice pagina HTML statica, ma un vero e proprio software complesso.
+                    Prodotti come WhatsApp o Instagram si basano su infrastrutture molto articolate: app native per iOS
+                    e Android, server, database e sistemi cloud. Sviluppare un servizio digitale richiede competenze
+                    trasversali per far funzionare tutto su dispositivi e sistemi operativi diversi.</p>
+                <br>
+                <p>Un focus importante è stato dedicato ai linguaggi di programmazione, con particolare attenzione a
+                    <strong>JavaScript</strong>. Nato per animare i browser, oggi grazie a strumenti come
+                    <em>Node.js</em> ed <em>Electron</em> permette di sviluppare sia lato server che applicazioni
+                    desktop. È stato approfondito anche l'uso di <strong>TypeScript</strong>, fondamentale per garantire
+                    affidabilità in progetti strutturati.</p>
+                <br>
+                <p>Oltre alla tecnica, si è discusso del lato imprenditoriale: gestire le richieste del cliente,
+                    assicurare standard di sicurezza e capire che scrivere "buon codice" è una precisa responsabilità
+                    professionale. L'incontro è stato molto coinvolgente, dandoci una panoramica realistica su cosa
+                    significhi davvero portare un'idea dal prototipo al mercato e su quanto sia importante curare il
+                    proprio profilo professionale (come GitHub) per il mondo del lavoro.</p>
+            </div>
+        </div>
+    </section>
+
+    <div style="display: flex; justify-content: flex-end; max-width: 800px; margin: 0 auto; padding: 0 5% 3rem;">
+        <a href="progetto-mipresento.html"
+            style="display: inline-flex; align-items: center; gap: 10px; background: var(--primary-color); color: #000; padding: 14px 28px; border-radius: 30px; font-family: var(--font-heading); font-weight: 600; font-size: 1rem; transition: all 0.3s ease; box-shadow: 0 4px 15px rgba(204,255,0,0.3);"
+            onmouseover="this.style.background='#b3e600';this.style.transform='translateY(-2px)'"
+            onmouseout="this.style.background='var(--primary-color)';this.style.transform='translateY(0)'">
+            Progetto Successivo: Mi Presento <i data-lucide="arrow-right"></i>
+        </a>
+    </div>
+
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2026 Daniele Galeotti. Tutti i diritti riservati.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

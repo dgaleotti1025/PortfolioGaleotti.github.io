@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I Miei Hobby | Daniele Galeotti</title>
+    <meta name="description" content="Le mie passioni: calcio e viaggi.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@400;500&display=swap"
+        rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+    <header id="navbar" class="scrolled">
+        <div class="nav-container">
+            <a href="index.html" class="logo">DG<span>.</span></a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Torna alla Home</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="inner-page section-padding">
+        <div class="container" style="max-width: 900px;">
+            <a href="index.html#about" class="back-btn"><i data-lucide="arrow-left"></i> Torna a Chi Sono</a>
+
+            <div class="section-title reveal" style="text-align: left; margin-bottom: 2.5rem;">
+                <h2>I Miei <span class="highlight">Hobby</span></h2>
+                <div class="underline" style="margin: 0; margin-top: 10px;"></div>
+            </div>
+
+            <!-- CALCIO -->
+            <div class="hobby-card glass-card reveal">
+                <div class="hobby-icon">
+                    <i data-lucide="shirt"></i>
+                </div>
+                <div>
+                    <h3>Calcio, la mia passione di sempre</h3>
+                    <p>Gioco a calcio da quando avevo <strong>5 anni</strong> ed è senza dubbio il mio sport preferito.
+                        Mi piace sia <strong>guardarlo</strong>, vivendo le emozioni delle grandi partite, sia
+                        <strong>giocarlo</strong>, perché in campo si imparano disciplina, sacrificio e spirito di
+                        squadra.
+                        È molto più di uno sport: è un modo per staccare la testa, divertirsi con gli amici e dare il
+                        massimo.
+                    </p>
+                </div>
+            </div>
+
+            <!-- VIAGGI -->
+            <div class="hobby-card glass-card reveal" style="margin-top: 2rem;">
+                <div class="hobby-icon">
+                    <i data-lucide="plane"></i>
+                </div>
+                <div>
+                    <h3>Viaggiare, scoprire il mondo</h3>
+                    <p>Adoro <strong>viaggiare</strong> e conoscere nuove culture, nuove città e nuovi modi di vivere.
+                        Tra le mete più belle che ho visitato ci sono <strong>New York</strong>, <strong>Parigi</strong>
+                        e <strong>Londra</strong>: tre città diversissime tra loro, ognuna con la propria magia,
+                        che mi hanno lasciato ricordi indimenticabili.</p>
+                    <div class="travel-tags">
+                        <span class="travel-tag"><i data-lucide="map-pin"></i> New York</span>
+                        <span class="travel-tag"><i data-lucide="map-pin"></i> Parigi</span>
+                        <span class="travel-tag"><i data-lucide="map-pin"></i> Londra</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- GALLERY -->
+            <div class="reveal" style="margin-top: 3.5rem;">
+                <div class="section-title" style="text-align: left; margin-bottom: 1.5rem;">
+
+                    <div class="underline" style="margin: 10px 0 0 0;"></div>
+                </div>
+
+
+                <div class="gallery-slider slider-container slider-large" data-interval="3500">
+                    <img src="hobby1.jpg" class="slide" alt="Foto viaggio 1">
+                    <img src="hobby2.jpg" class="slide" alt="Foto viaggio 2">
+                    <img src="hobby3.jpg" class="slide" alt="Foto viaggio 3">
+                    <img src="hobby4.jpg" class="slide" alt="Foto viaggio 4">
+
+
+                    <button class="slider-arrow slider-prev" aria-label="Precedente"><i
+                            data-lucide="chevron-left"></i></button>
+                    <button class="slider-arrow slider-next" aria-label="Successivo"><i
+                            data-lucide="chevron-right"></i></button>
+                    <div class="slider-dots"></div>
+                </div>
+                <p style="color: var(--text-muted); font-size: 0.9rem; margin-top: 1rem; text-align: center;">
+                    <i data-lucide="info"
+                        style="width:14px;height:14px;display:inline-block;vertical-align:middle;"></i>
+
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2026 Daniele Galeotti. Tutti i diritti riservati.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
